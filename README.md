@@ -36,8 +36,8 @@ Archives and folders: 📂
 
 === *AFTER ALL THE STEPS ABOVE* ===
 
-Order to run the program: 💻
-[1] - ingestion_pipeline.py
+Order to run the program: 💻  
+[1] - ingestion_pipeline.py  
 [2] - retrieval_pipeline.py
 
 ---
