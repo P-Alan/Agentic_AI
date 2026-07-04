@@ -11,11 +11,17 @@ Based on the classes of Harish Neil | AI on youtube
 
 ### Enviroment 🕸️​
 To recriate and run this code you will need to: 
+___
 
-Donwload in web: 🌐​
+Donwload in web: 🌐
+-
+
 - Ollama 3 (run it in a separated terminal on your pc)
 
+
 Donwload in python's terminal: 🐍
+-
+
 - langchain
 - langchain-community
 - langchain-text-splitters
@@ -27,16 +33,22 @@ Donwload in python's terminal: 🐍
 - tavily-python
 
 API keys: 🔑
+-
+
 - Tavily Key (available in their site)
 
 Archives and folders: 📂
+-
+
 - Put everything inside a root folder
 - Create a 'docs' folder inside the root folder
 - Put a '.txt' archive inside the docs folder
 
 === *AFTER ALL THE STEPS ABOVE* ===
+-
 
 Order to run the program: 💻  
+-
 [1] - ingestion_pipeline.py  
 [2] - retrieval_pipeline.py
 
