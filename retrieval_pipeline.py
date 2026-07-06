@@ -56,7 +56,7 @@ if relevant_docs:
     """
 
 else:
-    # Criar modelo de IA de fallback 3 IA
+    # Criar modelo de IA de fallback 2 IA
     search_tool= TavilySearchResults(max_results=3)
 
     web_search = search_tool.invoke(pergunta)
@@ -80,10 +80,10 @@ else:
     Please provide a clear, helpful answer using only the information from these documents.
     """
 
-# Criar o modelo de IA llama3   2 IA
+# Criar o modelo de IA llama3   3 IA
 model = OllamaLLM(model="llama3")
 
-# Define o comportamento da is
+# Define o comportamento da IA
 messages = [
     SystemMessage(content="You are a helpful assistant."), # Define o que a IA e
     HumanMessage(content=combined_input), # Define o que a IA vai responder
