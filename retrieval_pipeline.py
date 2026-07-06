@@ -85,7 +85,7 @@ model = OllamaLLM(model="llama3")
 
 # Define o comportamento da is
 messages = [
-    SystemMessage(content="You are a helpful assistant."), # Defini o que a IA e
+    SystemMessage(content="You are a helpful assistant."), # Define o que a IA e
     HumanMessage(content=combined_input), # Define o que a IA vai responder
 ]
 
